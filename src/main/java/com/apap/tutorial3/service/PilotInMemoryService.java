@@ -3,8 +3,11 @@ package com.apap.tutorial3.service;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.apap.tutorial3.model.PilotModel;
 
+@Service
 public class PilotInMemoryService implements PilotService {
 	private List<PilotModel> archivePilot;
 	
@@ -29,5 +32,14 @@ public class PilotInMemoryService implements PilotService {
 		}
 		return null;
 	}
+	public PilotModel getPilotDetailByID(String id) {
+		for (PilotModel pilot : archivePilot) {
+			if (pilot.getLicenseNumber().equals(id)){
+				return pilot;
+			}
+		}
+		return null;
+	}
+	
 
 }

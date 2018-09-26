@@ -4,14 +4,13 @@ public class PilotModel {
 	private String id;
 	private String licenseNumber;
 	private String name;
-	private Integer flyhour;
+	private Integer flyHour;
 	
-	public PilotModel(String id, String licenseNumber, String name, Integer flyhour) {
-		super();
+	public PilotModel(String id, String licenseNumber, String name, Integer flyHour) {
 		this.id = id;
 		this.licenseNumber = licenseNumber;
 		this.name = name;
-		this.flyhour = flyhour;
+		this.flyHour = flyHour;
 	}
 
 	public String getId() {
@@ -38,14 +37,12 @@ public class PilotModel {
 		this.name = name;
 	}
 
-	public Integer getFlyhour() {
-		return flyhour;
+	public Integer getFlyHour() {
+		return flyHour;
 	}
 
-	public void setFlyhour(Integer flyhour) {
-		this.flyhour = flyhour;
+	public void setFlyHour(Integer flyHour) {
+		this.flyHour = flyHour;
 	}
 	
-	
-
 }
