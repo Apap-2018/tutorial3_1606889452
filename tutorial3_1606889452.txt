@@ -1,0 +1,19 @@
+Pertanyaan 1:
+Tidak error
+
+Pertanyaan 2:
+Terjadi error karena parameter flyHour merupakan required
+
+Pertanyaan 3:
+Muncul
+
+Pertanyaan 4:
+Karena tidak ada data yang ditambahkan sehingga ketika mencari licenseNumber akan mereturn null
+
+Pertanyaan 5:
+Muncul
+
+Pertanyaan 6:
+Semua pilot muncul
+
+oleh : Rafie Dharmawan
